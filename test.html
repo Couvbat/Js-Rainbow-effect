@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>🌈🌈🌈🌈🌈🌈</title>
+  </head>
+  <body onload="rainbow()">
+    <div class="container">
+      <label for="red">red:</label>
+      <input type="range" oninput="rainbow()"
+        id="red" name="red" class="slider"
+        min="0" max="255" step="1">
+      <label for="green">green:</label>
+      <input type="range" oninput="rainbow()"
+        id="green" name="green" class="slider"
+        min="0" max="255" step="1">
+      <label for="blue">blue:</label>
+      <input type="range" oninput="rainbow()"
+        id="blue" name="blue" class="slider"
+        min="0" max="255" step="1">
+
+      <label for="toggle">Rainbow Effet</label>
+      <input type="checkbox" onchange="effect()"
+        id="effect" name="effect" class="effectButton">
+    </div>
+  </body>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="global.js"></script>
+</html>

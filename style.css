@@ -1,0 +1,25 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container{
+  height: 150px;
+  width: 150px;
+}
+
+
+#red{
+  background:red;
+}
+
+#green{
+  background: green;
+}
+
+#blue{
+  background: blue;
+}
